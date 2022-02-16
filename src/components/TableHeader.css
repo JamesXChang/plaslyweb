@@ -1,0 +1,15 @@
+.dropdown > .btn {
+    cursor: pointer;
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+.dropdown > .btn:focus {
+    box-shadow: none !important;
+}
+
+.dropdown-item:active {
+    background-color: #fff !important;
+    color: #000 !important;
+}

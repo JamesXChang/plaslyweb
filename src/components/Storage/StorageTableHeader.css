@@ -1,0 +1,13 @@
+.dropdown > .btn {
+    font-weight: bold;
+    padding: 0;
+}
+
+.dropdown > .btn:hover, 
+.dropdown > .btn:active, 
+.dropdown > .btn:focus,
+.show > .btn-secondary.dropdown-toggle {
+    color: rgba(0, 0, 0, 0.6) !important;
+    background-color: unset !important;
+    border-color: unset !important;
+}

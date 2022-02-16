@@ -1,0 +1,30 @@
+.insert-section .status-block {
+  width: 65px;
+  height: 19px;
+  border-radius: 4px;
+
+  padding: 2px 4px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.insert-section .status-normal {
+  background: #CBF4C9;
+  color: #0E6245;
+}
+.insert-section .status-expired_soon {
+  background: #FD1E1E;
+  color: #FFFFFF;
+}
+.insert-section .status-expired {
+  background: #676767;
+  color: #FFFFFF;
+}
+.insert-section .status-not_enough {
+  background: #FFB946;
+  color: #0E6245;
+}
+.insert-section .status-producing {
+  background: #A9E9F7;
+  color: #0E6245;
+}

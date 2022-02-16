@@ -1,0 +1,26 @@
+.pie-chart-container {
+  position: relative;
+}
+
+.pie-chart-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+
+  /* black */
+  color: #192A3E;
+
+  position: absolute;
+}
+
+.pie-chart-mid {
+  pointer-events: none;
+
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+  font-size: 56px;
+}

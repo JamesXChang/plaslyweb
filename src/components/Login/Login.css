@@ -1,0 +1,104 @@
+.block-wrapper {
+    height: 80%;
+}
+
+.container-block {
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.clickable-title {
+    color: #224957;
+    padding-bottom: 0.75rem;
+    cursor: pointer;
+}
+
+.bottom-line {
+    border-bottom: #46B1D8 solid 5px;
+}
+
+.login-input, .login-input:focus {
+    height: 50px;
+    background-color: #224957 !important;
+    color: #fff !important;
+    padding: 0.375rem 1.25rem !important;
+    border-radius: 10px !important;
+}
+
+.login-input::placeholder {
+    color: #fff !important;
+}
+
+.login-input:-webkit-autofill,
+.login-input:-webkit-autofill:hover,
+.login-input:-webkit-autofill:focus,
+.login-input:-webkit-autofill:active  {
+    -webkit-text-fill-color: #fff;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.action-block {
+    color: #224957;
+}
+
+.btn-link {
+    color: #224957 !important;
+    padding: 0 !important;
+}
+
+.account-check, .account-check:checked {
+    background-color: #224957 !important;
+} 
+
+.btn-style {
+    border: none !important;
+}
+
+.btn-style:hover {
+    filter: brightness(90%);
+}
+
+.btn-stack {
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    width: 75%;
+    border-radius: 12px !important;
+}
+
+.btn-login, .btn-register {
+    background-color: #20DF7F !important;
+    color: #224957 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    height: 50px;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.375rem 1.25rem !important;
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+}
+
+.google-icon {
+    width: 35px;
+}
+
+.fb-icon, .apple-icon {
+    font-size: 2.75rem !important;
+}
+
+#root > div:nth-child(2) {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .row-container {
+        text-align: inherit;
+    }
+
+    .container-block {
+        background-color: #ededed;
+        width: 400px;
+        padding: 2.25rem 3.75rem;
+        border-radius: 2rem;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    }
+}

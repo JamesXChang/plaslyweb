@@ -1,0 +1,49 @@
+.category-card {
+  height: 68px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.category-card .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+.category-card .percentage {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+}
+
+.category-card .percentage.text-green {
+  color: #00C79A;
+}
+
+.category-card .percentage.text-yellow {
+  color: #FFB946;
+}
+
+.category-card .percentage.text-red {
+  color: #FF0000; 
+}
+
+.category-card .content {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}

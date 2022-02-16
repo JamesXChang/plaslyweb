@@ -1,0 +1,106 @@
+.histogram {
+  height: 100%;
+  position: relative;
+
+  padding-top: 20px;
+  padding-right: 70px;
+  padding-bottom: 20px;
+  padding-left: 75px;
+
+  overflow: hidden;
+}
+
+.histogram .ylabel {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+}
+
+.histogram .xlabel {
+  position: absolute;
+  right: 40px;
+  bottom: 30px;
+}
+
+.histogram-chart {
+  height: 100%;
+}
+
+.histogram-chart .histogram-bar-container {
+  height: calc(100% - 50px);
+  position: relative;
+}
+
+.histogram-chart .histogram-bar {
+  height: 100%;
+}
+
+.histogram-chart .histogram-bar >div {
+  height: 100%;
+}
+
+.histogram-chart .histogram-bar .histogram-bar-stock {
+  display: block;
+  background: #DADADA;
+  border-radius: 15px 15px 0px 0px;
+
+  max-width: 40px;
+  margin: auto;
+
+  cursor: pointer;
+}
+
+.histogram-chart .histogram-bar .histogram-bar-amount {
+  display: block;
+  background: #00C799;
+  border-radius: 15px 15px 0px 0px;
+
+  max-width: 40px;
+  margin: auto;
+
+  pointer-events: none;
+}
+
+.histogram-chart .histogram-bar .histogram-bar-detail {
+  position: absolute;
+  left: calc(50% + 25px);
+  min-width: 85px;
+  transform: translate(0, -50%);
+
+  padding: 3px auto;
+
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+
+  font-size: 12px;
+}
+
+.histogram-chart .histogram-content {
+  height: 50px;
+  text-align: center;
+}
+
+.histogram-chart .histogram-bar-indicator {
+  position: absolute;
+  height: calc(100% - 50px);
+  width: calc(100% - 1.5rem);
+}
+
+.histogram-chart .histogram-bar-indicator .histogram-dashed-line {
+  height: 2px;
+  position: absolute;
+  width: 100%;
+  background-image: linear-gradient(to right, #D3D8DD 0%, #D3D8DD 50%, transparent calc(50% + 0.01px), transparent 100%);
+  background-size: 20px 2px;
+}
+
+.histogram-chart .histogram-bar-indicator .histogram-dashed-line::before {
+  position: absolute;
+  left: -25px;
+  top: 0;
+
+  content: attr(label);
+  transform: translate(-50%, -50%);
+  
+}

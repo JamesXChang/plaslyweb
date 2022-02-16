@@ -1,0 +1,32 @@
+.sidebar {
+    min-width: 230px;
+}
+
+.nav-vertical {
+    background-color: #00B6FF;
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    font-size: 1.5rem;
+    height: 620px;
+}
+
+.nav-vertical .nav-link {
+    color: #fff;
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+}
+
+.nav-vertical .active > .nav-link,
+.nav-vertical .nav-link:hover {
+    color: #fff !important;
+    background-color: #006FF7 !important;
+}
+
+.help-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.comment-icon {
+    transform:scaleX(-1);
+}

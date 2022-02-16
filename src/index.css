@@ -1,0 +1,12 @@
+html, body, #root {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "Noto Sans SC", 
+                -apple-system, 
+                BlinkMacSystemFont, 
+                "Helvetica Neue",
+                Helvetica,
+                Roboto,
+                "Microsoft JhengHei",
+                sans-serif;
+}

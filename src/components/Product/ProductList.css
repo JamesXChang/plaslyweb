@@ -1,0 +1,29 @@
+.product-row {
+    background-color: #E0E0E0;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.product-row:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+.page-num {
+    width: 30px;
+    height: 30px;
+}
+
+.page-num:hover, .page-num.active {
+    cursor: pointer;
+    background-color: #c7c7c7;
+}
+
+.page-direct {
+    cursor: pointer;
+}
+
+.page-direct.disabled {
+    color: rgba(0, 0, 0, 0.4);
+    cursor: unset;
+}

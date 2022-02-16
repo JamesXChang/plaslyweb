@@ -1,0 +1,142 @@
+.storage-table {
+  font-family: "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, "Microsoft JhengHei", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+
+  color: #000000;
+}
+
+.storage-table-container .search-icon {
+  transform: translate(0, 6px);
+}
+
+.storage-table-container .search-bar {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0 !important;
+}
+
+.storage-table-container .btn-container button {
+  margin: 5px;
+  box-shadow: 0px 2px 5px rgba(60, 66, 87, 0.08), 0px 0px 0px 1px rgba(60, 66, 87, 0.16), 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.storage-table-container .btn-link.btn-link {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(60, 66, 87, 0.08), 0px 0px 0px 1px rgba(60, 66, 87, 0.16), 0px 1px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 5px 8px;
+  padding: 0.375rem 0.75rem !important;
+
+  text-decoration: none;
+}
+
+.storage-table-container .storage-table-row:hover {
+  background-color: rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.storage-table-container .btn-link.btn-link.more-btn,
+.storage-table-container .btn-link.btn-link.prev-btn,
+.storage-table-container .btn-link.btn-link.next-btn {
+  font-family: 'Noto Sans TC', 'helvetica';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  margin: 0;
+  padding: 3px 8px !important;
+  margin-left: 10px;
+}
+
+.storage-table-container .storage-table-row .status-block {
+  width: 65px;
+  height: 19px;
+  border-radius: 4px;
+
+  padding: 2px 4px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.storage-table-container .storage-table-row .status-normal {
+  background: #CBF4C9;
+  color: #0E6245;
+}
+.storage-table-container .storage-table-row .status-expired_soon {
+  background: #FD1E1E;
+  color: #FFFFFF;
+}
+.storage-table-container .storage-table-row .status-expired {
+  background: #676767;
+  color: #FFFFFF;
+}
+.storage-table-container .storage-table-row .status-not_enough {
+  background: #FFB946;
+  color: #0E6245;
+}
+.storage-table-container .storage-table-row .status-producing {
+  background: #A9E9F7;
+  color: #0E6245;
+}
+
+.storage-table-container .storage-table-row .status-tag {
+  background: #D6D6D6;
+  font-size: 14px;
+  line-height: 20px;
+
+  display: inline-block;
+
+  border-radius: 15px;
+
+  padding: 2px 5px;
+  margin-right: 5px;
+}
+
+.storage-table-container .storage-table-row .status-tag:hover {
+  background: #888888;
+  color: white;
+}
+
+.storage-table-container .storage-table-row .status-tag:last-child {
+  margin-right: 0;
+}
+
+.status-tag > .btn {
+  padding: 0 3px !important;
+}
+
+.setting-btn .btn, 
+.status-tag .btn, .status-tag .btn:hover, .status-tag .btn.btn:active, .status-tag .btn:focus {
+  background: none;
+  border: none;
+  color: #000000;
+  border-radius: 1rem !important;
+  line-height: 20px;
+  box-shadow: none;
+}
+
+.setting-btn .btn:hover, .setting-btn .btn:active, .setting-btn .btn:focus {
+  background-color: rgba(245, 245, 245);
+  color: #000000;
+  box-shadow: none;
+}
+
+.setting-btn .dropdown-menu {
+  min-width: 0;
+  left: -18px !important;
+}
+
+.status-tag .dropdown-menu {
+  min-width: 0;
+  left: -30px !important;
+}

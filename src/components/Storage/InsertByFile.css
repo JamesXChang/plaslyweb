@@ -1,0 +1,135 @@
+.insert-section-file {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+}
+
+.insert-section-file .container {
+  max-width: 900px;
+  padding: 50px 60px 40px ;
+
+  background-color: white;
+  border-radius: 20px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.insert-section-file .close-btn {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  font-size: 24px;
+
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.insert-section-file .close-btn:active {
+  cursor: unset;
+}
+
+.insert-section-file label {
+  cursor: pointer !important;
+  margin: 0 !important;
+}
+
+.insert-section-file input[type=file], /* FF, IE7+, chrome (except button) */
+.insert-section-file input[type=file]::-webkit-file-upload-button { /* chromes and blink button */
+  cursor: pointer !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  opacity: 0;
+  width: 100%;
+}
+
+.insert-section-file .btn {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.insert-section-file .download-example {
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.insert-section-file .download-example:hover {
+  border-bottom: 1px solid black;
+}
+
+.insert-section-file .download-table {
+  margin: 0 10px 70px;
+
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  font-family: 'Work Sans';
+}
+
+.insert-section-file .download-table .download-table-column .row {
+  border-bottom: 1px solid transparent;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.insert-section-file .download-table .download-table-column .row:hover {
+  border-bottom: 1px solid black;
+}
+
+.insert-section-file .download-table .download-table-header {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 5px 5px 0px 0px;
+
+  font-weight: 600;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: unset;
+}
+
+.storage-table-container .insert-section-file button, .storage-table-container .insert-section-file .btn-link.btn-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  padding: 5px 35px !important;
+  margin-left: 25px;
+}
+
+.insert-section-file .text-bold {
+  font-weight: 700;
+}
+
+.insert-section-file .download-table .download-table-icon {
+  cursor: pointer;
+}
+
+.insert-section-file .submit-filename {
+  display: inline-block;
+  font-family: 'Work Sans';
+  font-weight: 600;
+  color: #198754;
+}
+
+.insert-section-file .fileinput-btn {
+  position: relative;
+}
+
+.insert-section-file .fileinput-btn div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

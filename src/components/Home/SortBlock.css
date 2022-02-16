@@ -1,0 +1,25 @@
+.block-style {
+    border-radius: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.block-style:hover {
+    filter: brightness(85%);
+}
+
+.like-stack .fa-circle {
+    color: rgba(0, 182, 255, 0.6);
+}
+
+.like-stack .fa-circle:hover {
+    color: rgba(0, 111, 247, 0.7);
+}
+
+.like-stack .fa-thumbtack {
+    transform: rotate(45deg);
+}
